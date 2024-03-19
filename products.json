@@ -1,0 +1,154 @@
+{
+  "Items":[
+    {
+      "filename":"laz-headphone",
+      "product":"P47 Wireless Bluetooth On Ear Headphone",
+      "price":599,
+      "category":"Electronics"
+    },
+    {
+      "filename":"laz-headset",
+      "product":"Original Wired Macaron Headset Good Quality Headphone",
+      "price":140,
+      "category":"Electronics"
+    },
+    {
+      "filename":"laz-earpods",
+      "product":"I7s Tws Bluetooth Headphones 2023  Wireless Earphones In Ear Stereo Sports Headset For Andorid Ios",
+      "price":269,
+      "category":"Electronics"
+    },
+    {
+      "filename":"laz-charger",
+      "product":"Realme Charger Original Fast Charger 18W Micro Usb 2IN 1 Adapter Set For Android Charger",
+      "price":199,
+      "category":"Electronics"
+    },
+    {
+      "filename":"laz-keyboard",
+      "product":"Zeus K500 ( SimpliCity ) Wired Keyboard For Office / Gaming ( Online Exclusive Edition )",
+      "price":299,
+      "category":"Electronics"
+    },
+    {
+      "filename":"laz-mouse",
+      "product":"Rapoo N1600/N1200 Silent Wired Optical Mouse Anti-slip scroll wheel 1600 DPI tracking engine",
+      "price":599,
+      "category":"Electronics"
+    },
+    {
+      "filename":"laz-iphone",
+      "product":"Apple iPhone 15 Pro Max",
+      "price":81390,
+      "category":"Mobiles"
+    },
+    {
+      "filename":"laz-realme",
+      "product":"realme C51 [4GB+128GB] Android Smartphone",
+      "price":6499,
+      "category":"Mobiles"
+    },
+    {
+      "filename":"laz-keypad",
+      "product":"Samsung B312 Dual Sim Basic Phone Keypad Phone 800mAh",
+      "price":293,
+      "category":"Mobiles"
+    },
+    {
+      "filename":"laz-infinix",
+      "product":"Infinix Smart 8 up to 3GB + 64GB, 90hz Punch-Hole Display, 5000 mAh Battery (1 year local warranty)",
+      "price":7899,
+      "category":"Mobiles"
+    },
+    {
+      "filename":"laz-redmi",
+      "product":"Xiaomi Redmi A2+ 3GB+64GB",
+      "price":6999,
+      "category":"Mobiles"
+    },
+    {
+      "filename":"laz-oppo",
+      "product":"OPPO A16 | expandable to 256GB Storage* | 6.5 HD+ Eye-care Display | 13MP AI Triple Camera | 5000mAh Long-lasting Battery | Fingerprint Sensor & AI Face Unlock Smartphone",
+      "price":7842,
+      "category":"Mobiles"
+    },
+    {
+      "filename":"laz-vivo",
+      "product":"[NEW] vivo Y16 cellphone 64/128GB ROM mobile phone 5000mAh Battery gaming phone 6.51inch screen",
+      "price":8999,
+      "category":"Mobiles"
+    },
+    {
+      "filename":"laz-zero",
+      "product":"Infinix Zero 30 5G 12GB + 256GB, Dimensity 8020 5G Processor, 4K 60 FPS, with 1 year warranty",
+      "price":15339,
+      "category":"Mobiles"
+    },
+    {
+      "filename":"laz-hplaptop",
+      "product":"hp Laptop Brand New PC Intel Core I3/I5/I7 SSD Ultra-thin Computer 15.6 Inch Game office computer",
+      "price":42782,
+      "category":"Computers"
+    },
+    {
+      "filename":"laz-taloo",
+      "product":"15.6' Laptop computer 16GB Memory SSD 256G/512G Intel Celeron N4020 1920*1080 IPS Screen Windows 11",
+      "price":17999,
+      "category":"Computers"
+    },
+    {
+      "filename":"laz-dell",
+      "product":"Dell laptop Brand New Original legal Intel Core i3/i5/i7 480G SSD 14.1 inch HD Gaming Laptop PC",
+      "price":40950,
+      "category":"Computers"
+    },
+    {
+      "filename":"laz-desktop_computer",
+      "product":"Desktop computer set PC set Inter i7 i5 i3 quad core 16G 8G memory 512G ssd19 inch for work game",
+      "price":36699,
+      "category":"Computers"
+    },
+    {
+      "filename":"laz-amd",
+      "product":"AMD Desktop Computer Full Set Athlon/Ryzen 3/5/7 series Octa core 4.6Ghz frequency 16G RAM 1TB SSD Radeon™ Graphics Vega 8 Home Office/Designer drawing RGB case Speciality Gaming PC Set Brand new 3 yr warranty",
+      "price":43198,
+      "category":"Computers"
+    },
+    {
+      "filename":"laz-gaming_desktop",
+      "product":"Intel Core i5 / i7 Gaming Desktop Computer Quad-Core 8GB / 16GB RAM 256GB / 512GB M.2 SSD Full Set PC Computer",
+      "price":35989,
+      "category":"Computers"
+    },
+    {
+      "filename":"laz-curved_computer",
+      "product":"[local seller] 27 /24 Inch Intel i7 16+512GB Curved screen Aio Intel I7 All In One Pc Desktop Voor gaming large screen PC computer 2 years warranty",
+      "price":37499,
+      "category":"Computers"
+    },
+    {
+      "filename":"laz-korean_shoe",
+      "product":"NEW KOREAN FASHION SHOES SNEAKERS LOW CUT FOR MEN AND WOMEN 36-45",
+      "price":700,
+      "category":"Shoes"
+    },
+    {
+      "filename":"laz-nikee_black",
+      "product":"NIKEE ZOOM ALL BLACK ALL WHITE LOW CUT SHOES FOR MEN'S AND WOMEN'S",
+      "price":3899,
+      "category":"Shoes"
+    },
+    {
+      "filename":"laz-fashionable_shoe",
+      "product":"Fashionable men's shoes",
+      "price":200,
+      "category":"Shoes"
+    },
+    {
+      "filename":"laz-clara_shoe",
+      "product":"Clara. Men's One Degree Beyond Mesh Sneakers Cool Swag Shoes #M732 (Standard Size)",
+      "price":199,
+      "category":"Shoes"
+    }
+  ]
+}
