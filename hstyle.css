@@ -341,7 +341,6 @@ nav ul li:hover > .n-line{
 /* PRODUCTS */
 .Products{
   background: #eee;
-  margin-bottom: 300px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -486,7 +485,65 @@ nav ul li:hover > .n-line{
   color: #fff;
 }
 /* ------- */
-
+.About{
+  border-bottom: 2px solid #fff;
+  background: linear-gradient(to left, rgba(255,200,0,0.9) 700px, rgba(255,130,0,0.9));
+  width: 100%;
+  padding: 5vw;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  cursor: default;
+}
+.ab-box{
+  border: 1px solid;
+  box-shadow: -10px 12px 1px rgba(0,0,0,0.3);
+  background: #fff;
+  padding: 40px;
+  border-radius: 30px 5px 30px 5px;
+  max-width: 600px;
+  font-size: 25px;
+}
+.ab-box h1{
+  background: orange;
+  margin-bottom: 30px;
+  color: #fff;
+  width: fit-content;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+/* ------ */
+.About, .Contact{
+  min-height: calc(100vh - 80px);
+}
+/* ------ */
+.Contact{
+  border-top: 2px solid #fff;
+  /* box-shadow: 0 -8px 1px rgba(100,100,100,0.3); */
+  background: linear-gradient(to right, rgba(0,250,0,0.9) 700px, rgba(0,180,0,0.9));
+  width: 100%;
+  padding: 5vw;
+  display: flex;
+  align-items: center;
+  cursor: default;
+}
+.co-box{
+  border: 1px solid;
+  box-shadow: -10px 12px 1px rgba(0,0,0,0.3);
+  background: #fff;
+  padding: 40px;
+  border-radius: 5px 30px 5px 30px;
+  max-width: 600px;
+  font-size: 25px;
+}
+.co-box h1{
+  background: rgb(0, 190, 0);
+  margin-bottom: 30px;
+  color: #fff;
+  width: fit-content;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
 
 
 /* ---TABLET VIEW--- */
@@ -561,6 +618,10 @@ nav ul li:hover > .n-line{
   }
   .product{
     width: 40vw;
+  }
+  .ab-box, .co-box{
+    padding: 30px;
+    font-size: 20px;
   }
 }
 
