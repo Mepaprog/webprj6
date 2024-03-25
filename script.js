@@ -53,6 +53,14 @@ document.getElementById('ctgry').addEventListener('click',event=>{
 document.getElementById('prdct').addEventListener('click',event=>{
   scrollTo('.Products');
 });
+// About
+document.getElementById('about').addEventListener('click',event=>{
+  scrollTo('.About');
+});
+// Contact
+document.getElementById('contact').addEventListener('click',event=>{
+  scrollTo('.Contact');
+});
 
 
 function hideoverflowname(text){
@@ -81,7 +89,7 @@ fetch("products.json")
   shuffleArray(data.Items);
 
   const allprc = document.querySelector('.All-products-c');
-  function displayItems(i){
+  function displayItem(i){
     const product = document.createElement('div');
     product.setAttribute('class','product');
 
@@ -90,26 +98,20 @@ fetch("products.json")
     const toinsert = '<div class="pimg-c"><img src="Items/'+data.Items[i].filename+'.webp"></div><div class="prdct-n">'+data.Items[i].product+'</div><div class="prdct-m"><div class="price">₱'+readablePrice+'</div><button class="add2cart" id="'+i+'">Add to Cart</button></div>';
     product.innerHTML = toinsert;
     allprc.append(product);
+    // ----------
+    add2cartFunc(product);
   }
 
   function getItems(){
     allprc.innerHTML = '';
     for(let i=0;i<data.Items.length;i++){
-      displayItems(i);
+      displayItem(i);
     }
   }
   getItems();
-  
-  // Header Logo
-  document.querySelector('.hlogo-c').addEventListener('click',event=>{
-    shuffleArray(data.Items);
-    getItems();
-  });
-
 
   // Add2Cart
-  const collectedProduct = document.querySelectorAll('.product');
-  collectedProduct.forEach((product)=>{
+  function add2cartFunc(product){
     product.querySelector('.add2cart').addEventListener('click',event=>{
       document.querySelector('.cart img').removeAttribute('class');
       document.querySelector('.cart img').setAttribute('src',product.querySelector('.pimg-c img').src);
@@ -118,6 +120,47 @@ fetch("products.json")
         document.querySelector('.cart img').removeAttribute('class');
       }, 500);
     });
+  }
+
+  
+  // Header Logo
+  document.querySelector('.hlogo-c').addEventListener('click',event=>{
+    shuffleArray(data.Items);
+    getItems();
   });
+  // Shop Now
+  document.getElementById('shop-now').addEventListener('click',event=>{
+    document.querySelector('main').scrollTop = (
+      document.querySelector('header').offsetHeight+
+      document.querySelector('.front-p').offsetHeight
+    );
+  });
+  
+  // Categories buttons
+  function categoryFunc(cate){
+    allprc.innerHTML = '';
+    for(let i=0;i<data.Items.length;i++){
+      if(data.Items[i].category == cate){
+        displayItem(i);
+      }
+    }
+  }
+  document.querySelector('.Electronics').addEventListener('click',event=>{
+    categoryFunc('Electronics');
+    scrollTo('.Products');
+  });
+  document.querySelector('.Mobiles').addEventListener('click',event=>{
+    categoryFunc('Mobiles');
+    scrollTo('.Products');
+  });
+  document.querySelector('.Computers').addEventListener('click',event=>{
+    categoryFunc('Computers');
+    scrollTo('.Products');
+  });
+  document.querySelector('.Shoes').addEventListener('click',event=>{
+    categoryFunc('Shoes');
+    scrollTo('.Products');
+  });
+  // ----------------
 
 });
